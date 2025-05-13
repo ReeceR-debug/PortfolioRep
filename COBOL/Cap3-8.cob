@@ -1,0 +1,27 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. Cap3-8.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION. 
+       01  INVENTORY-PART-NO              PIC 999.
+       01  QUANTITY-OF-ITEMS-ON-HAND      PIC 999.
+       01  UNIT-PRICE                     PIC 999V99.
+       01  TOTAL-VALUE                    PIC 9999V99.
+       01  MORE-DATA                      PIC XXX VALUE "YES".
+       PROCEDURE DIVISION.
+       100-MAIN.
+           PERFORM UNTIL MORE-DATA = "NO "
+              DISPLAY "ENTER THE PART NUMBER: "
+              ACCEPT INVENTORY-PART-NO 
+              DISPLAY "ENTER NUMBER OF ITEMS ON HAND: "
+              ACCEPT QUANTITY-OF-ITEMS-ON-HAND 
+              DISPLAY "ENTER UNIT PRICE: "
+              ACCEPT UNIT-PRICE 
+
+              MULTIPLY QUANTITY-OF-ITEMS-ON-HAND BY UNIT-PRICE
+               GIVING TOTAL-VALUE 
+              DISPLAY "PART NUMBER: ", INVENTORY-PART-NO 
+              DISPLAY "TOTAL VALUE IS: ", TOTAL-VALUE
+              DISPLAY "IS THERE MORE DATA (YES/NO)?"
+              ACCEPT MORE-DATA 
+           END-PERFORM
+           STOP RUN.
