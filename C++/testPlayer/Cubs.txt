@@ -1,0 +1,11 @@
+Number	Last Name  ,  First Name	Position	Hits	Outs	Walks	RBI
+2        Hoerner   ,     Nico        2           1        1       0      0
+27       Suzuki    ,     Seiya       8           1        1       1      0
+24       Bellinger ,     Cody        5           2        0       0      0
+5        Morel     ,     Chris       3           0        3       0      0
+16       Wisdom    ,     Patrick     1           0        1       0      1
+7        Swanson   ,     Dansby      6           0        2       0      0
+8        Happ      ,     Ian         7           0        1       0      0
+1        Madrigal  ,     Nick        3           0        0       0      0
+9        Amaya     ,     Miguel      5           1        2       0      0
+35       Steele    ,     Justin      0           0        0       0      0
