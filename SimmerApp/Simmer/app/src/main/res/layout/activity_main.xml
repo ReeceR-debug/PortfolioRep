@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnLasagnaTXT"
+        android:layout_width="278dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#00FFFFFF"
+        android:elevation="0dp"
+        android:shadowColor="#00FFFFFF"
+        android:text="@string/btnLasagna"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoulashTXT" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="172dp"
+        android:text="@string/tvTitle"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnSmash"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/decImgSmash"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/btnChicken"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        app:srcCompat="@drawable/smashpatty" />
+
+    <ImageButton
+        android:id="@+id/btnChicken"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/decImgChicken"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSmash"
+        app:srcCompat="@drawable/chicken_ala_king" />
+
+    <ImageButton
+        android:id="@+id/BtnGoulash"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/decImgGoulash"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChicken"
+        app:srcCompat="@drawable/goulash" />
+
+    <ImageButton
+        android:id="@+id/btnLasagna"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/decImgLasagna"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnGoulash"
+        app:srcCompat="@drawable/lasagna" />
+
+    <ImageButton
+        android:id="@+id/btnBeef"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/decImgBeef"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLasagna"
+        app:srcCompat="@drawable/beefandbroc" />
+
+    <ImageButton
+        android:id="@+id/btnAddNew"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/decImgNew"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnAddNewTXT"
+        app:layout_constraintTop_toBottomOf="@+id/btnBeef"
+        app:srcCompat="@drawable/plus" />
+
+    <Button
+        android:id="@+id/btnSmashTXT"
+        android:layout_width="278dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#00FFFFFF"
+        android:elevation="0dp"
+        android:shadowColor="#00FFFFFF"
+        android:text="@string/btnSmash"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/btnChickenTXT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <Button
+        android:id="@+id/btnChickenTXT"
+        android:layout_width="278dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#00FFFFFF"
+        android:elevation="0dp"
+        android:shadowColor="#00FFFFFF"
+        android:text="@string/btnChicken"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSmashTXT" />
+
+    <Button
+        android:id="@+id/btnGoulashTXT"
+        android:layout_width="278dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#00FFFFFF"
+        android:elevation="0dp"
+        android:shadowColor="#00FFFFFF"
+        android:text="@string/btnGoulash"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChickenTXT" />
+
+    <Button
+        android:id="@+id/btnBeefTXT"
+        android:layout_width="278dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#00FFFFFF"
+        android:elevation="0dp"
+        android:shadowColor="#00FFFFFF"
+        android:text="@string/btnBeef"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLasagnaTXT" />
+
+    <Button
+        android:id="@+id/btnAddNewTXT"
+        android:layout_width="278dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#00FFFFFF"
+        android:elevation="0dp"
+        android:shadowColor="#00FFFFFF"
+        android:text="@string/btnAddNew"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBeefTXT" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

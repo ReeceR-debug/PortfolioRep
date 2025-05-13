@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">SimmerApp</string>
+
+    <string name="btnSmash">Smash Patty</string>
+    <string name="btnChicken">Chicken ala King</string>
+    <string name="btnGoulash">Goulash</string>
+    <string name="btnLasagna">Lasagna</string>
+    <string name="btnBeef">Beef and Broccoli</string>
+    <string name="btnAddNew">Add New Recipe</string>
+
+    <string name="decImgSmash">Smash Patty Image</string>
+    <string name="decImgChicken">Chicken Ala King Image</string>
+    <string name="decImgGoulash">Goulash Image</string>
+    <string name="decImgLasagna">Lasagna Image</string>
+    <string name="decImgBeef">Beef And Broccoli Image</string>
+    <string name="decImgNew">Add New Recipe Image</string>
+    <string name="decBackArrow">Back Button</string>
+
+    <string name="tvTitle">Home</string>
+    <string name="tvAbout">About</string>
+    <string name="tvInstructions">Instructions</string>
+    <string name="tvIngredients">Ingredients</string>
+
+    <string name="tvSmash">Smash Patty</string>
+    <string name="tvChicken">Chicken ala King</string>
+    <string name="tvGoulash">Goulash</string>
+    <string name="tvLasagna">Lasagna</string>
+    <string name="tvBeef">Beef and Broccoli</string>
+    <string name="tvAddNew">Add New Recipe</string>
+
+    <string name="labelName">Name</string>
+    <string name="labelTime">Time</string>
+    <string name="labelServes">Serves</string>
+    <string name="labelDesc">Description</string>
+    <string name="labelIngredients">Ingredients With Amounts</string>
+
+    <string name="AboutPara">Simmer is a company founded on the idea that fabulous food does not need to be bound to one place. We pride ourselves on connection between people using food.</string>
+    <string name="phone">Phone: (563)-321-6098</string>
+    <string name="email">Email: SimmerSupport@gmail.com</string>
+
+
+    Phone: (563)-321-6098
+
+    Email: SimerSupport@gmail.com
+
+
+</resources>
